@@ -1,0 +1,27 @@
+.category_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.c_link {
+  padding: 13px 46px;
+  font-size: 14px;
+  line-height: 143%;
+  color: #768088;
+  transition: 0.3s;
+}
+
+.c_link:hover {
+  transform: scale(1.05);
+  color: #3a4147;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+@media (max-width: 840px) {
+  .c_link {
+    margin: 0 auto;
+  }
+}

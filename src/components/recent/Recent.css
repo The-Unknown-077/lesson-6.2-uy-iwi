@@ -1,0 +1,103 @@
+.p_title_box {
+  width: 188px;
+  margin: 0 auto;
+  padding-bottom: 22px;
+}
+
+.p_title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 135%;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding-bottom: 22px;
+  border-bottom: 2px solid #dedede;
+}
+
+.recent {
+  background: #f7f7f7;
+  padding-bottom: 108px;
+}
+
+.r_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.r_card {
+  background: white;
+  transition: 0.4s;
+}
+
+.r_card:hover {
+  scale: 1.05;
+}
+
+.r_card_context {
+  padding: 0 13px;
+}
+
+.r_card_title {
+  font-weight: 400;
+  line-height: 131%;
+  margin-top: 14px;
+  margin-bottom: 6px;
+}
+
+.r_card_spoiler {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 146%;
+  color: #7a7a7a;
+  padding-bottom: 33px;
+  border-bottom: 2px solid #f7f7f7;
+}
+
+.r_card_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+}
+
+.r_info_img {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.r_info_img img {
+  border-radius: 50%;
+}
+
+.r_image_owner {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 292%;
+  color: #999;
+}
+
+.r_date {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 292%;
+  color: #999;
+}
+
+@media (max-width: 938px) {
+  .r_cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .r_card img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .r_cards {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,60 @@
+.p_title_box {
+  width: 188px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 82px;
+}
+
+
+.email {
+  position: relative;
+  top: 0;
+  left: 0;
+  background: url("../../assets/IMAGE (27).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 428px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input input {
+  padding: 18px 136px 18px 36px;
+  border-radius: 3px 0 0 3px;
+  background: #fff;
+}
+
+.e_p_title{
+  font-weight: 400;
+  font-size: 26px !important;
+  line-height: 120%;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding-bottom: 22px;
+  color: #dedede;
+  border-bottom: 2px solid #dedede;
+}
+
+.input_btn {
+  padding: 18px 44px;
+  border-radius: 0 3px 3px 0;
+  color: white;
+  background: rgba(255, 255, 255, 0.28);
+}
+
+@media (max-width: 500px) {
+  input {
+    padding: 18px 38px 18px 10px !important;
+  }
+
+  .input_btn {
+    padding: 18px 24px !important;
+  }
+}

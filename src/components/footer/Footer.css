@@ -1,0 +1,37 @@
+.footer {
+    padding: 17px 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #232F3899;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer_collection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer_collection .footer_item {
+    padding: 10px 20px;
+}
+
+@media (max-width: 800px) {
+    .footer_collection {
+        display: none;
+    }
+
+    .footer_logo {
+        margin: 0 auto;
+    }
+
+    .footer {
+        padding: 17px 100px;
+    }
+}
