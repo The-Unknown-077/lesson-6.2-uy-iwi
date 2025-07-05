@@ -5,7 +5,7 @@ import Footer from './components/footer/Footer.jsx'
 import Header from './components/header/Header'
 import Hero from './components/hero/Hero.jsx'
 import Posts from './components/posts/Posts.jsx'
-import Recent from './components/recent/recent.jsx'
+import Recent from './components/recent/Recent.jsx'
 
 function App() {
   return (
